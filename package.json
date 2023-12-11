@@ -1,0 +1,18 @@
+{
+  "name": "yt2mp3",
+  "version": "1.0.0",
+  "description": "youtube to mp3 api (webdev tuts)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon app.js"
+  },
+  "author": "James",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
