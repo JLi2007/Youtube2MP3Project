@@ -48,6 +48,7 @@ body{
   border-bottom-left-radius: 15px;
   border: 1px solid lightgray;
   font-family: inherit;
+  outline: none;
   box-shadow: 2px 2px 5px gray;
 }
 
