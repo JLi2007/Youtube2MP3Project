@@ -65,6 +65,13 @@ body{
   transition: 0.3s ease-out;
 }
 
+#form button:hover{
+  color:white;
+  background-color:  red;
+  border: 1px solid  red;
+  transform: scale(1.1);
+}
+
 .errors{
   width: 400px;
   margin: auto;
@@ -105,3 +112,11 @@ body{
   border: 1px solid red;
   transition: 0.3s ease-out;
 }
+
+#download-btn:hover{
+  color:black;
+  background-color:  white;
+  border: 1px solid  lightgray;
+  transform: scale(1.1);
+}
+
