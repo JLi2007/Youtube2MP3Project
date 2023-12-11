@@ -48,7 +48,6 @@ body{
   border-bottom-left-radius: 15px;
   border: 1px solid lightgray;
   font-family: inherit;
-  outline: none;
   box-shadow: 2px 2px 5px gray;
 }
 
@@ -63,13 +62,6 @@ body{
   font-family: inherit;
   box-shadow: 2px 3px 5px gray;
   transition: 0.3s ease-out;
-}
-
-#form button:hover{
-  color:white;
-  background-color:  red;
-  border: 1px solid  red;
-  transform: scale(1.1);
 }
 
 .errors{
@@ -111,29 +103,4 @@ body{
   font-family: inherit;
   border: 1px solid red;
   transition: 0.3s ease-out;
-}
-
-#download-btn:hover{
-  color:black;
-  background-color:  white;
-  border: 1px solid  lightgray;
-  transform: scale(1.1);
-}
-
-@media(max-width:768px){
-  .bottom-container{
-    width: 90%;
-    margin: auto;
-  }
-
-  #form, .success{
-    text-align: center;
-    width: 100%;
-  }
-}
-
-@media(max-width:480px){
-  #form input{
-    width: 50%;
-  }
 }
