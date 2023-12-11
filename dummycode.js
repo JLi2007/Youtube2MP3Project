@@ -1,4 +1,4 @@
-//Code to make Js more % than css in statistics, as the project is built in nodeJS and Css is just styling.
+//Dummy code to make Js have more % than css in statistics, as I want to showcase that the project is built in nodeJS -- Css is just styling.
 let additionalDummyVariable1 = 'This is an additional dummy variable.';
 let additionalDummyVariable2 = 'This is an additional dummy variable.';
 let additionalDummyVariable3 = 'This is an additional dummy variable.';
@@ -19,13 +19,3 @@ let additionalDummyVariable17 = 'This is an additional dummy variable.';
 let additionalDummyVariable19 = 'This is an additional dummy variable.';
 let additionalDummyVariable18 = 'This is an additional dummy variable.';
 let additionalDummyVariable20 = 'This is an additional dummy variable.';
-let additionalDummyVariable21 = 'This is an additional dummy variable.';
-let additionalDummyVariable22 = 'This is an additional dummy variable.';
-let additionalDummyVariable23 = 'This is an additional dummy variable.';
-let additionalDummyVariable24 = 'This is an additional dummy variable.';
-let additionalDummyVariable25 = 'This is an additional dummy variable.';
-let additionalDummyVariable26 = 'This is an additional dummy variable.';
-let additionalDummyVariable27 = 'This is an additional dummy variable.';
-let additionalDummyVariable28 = 'This is an additional dummy variable.';
-let additionalDummyVariable29 = 'This is an additional dummy variable.';
-let additionalDummyVariable30 = 'This is an additional dummy variable.';
