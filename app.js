@@ -4,11 +4,12 @@ require("dotenv").config();
 
 const app = express();
 
-//process.env.PORT is for deployment purposes (yt tut deploys to Heroku)
+//process.env.PORT is for deployment purposes (Heroku)
 const PORT = process.env.PORT || 5000;
 
 //set template engine (ejs)
 app.set("view engine", "ejs");
+
 app.use(express.static("public"));
 
 //parse html data for POST request
@@ -22,7 +23,7 @@ app.get("/", (req, res) => {
 })
 
 app.post("/convert-mp3", async(req, res) => {
-    //grab name we game the input in the ejs file, that is why we need it
+    //grab name that was inputed in the ejs file
     const videoId = req.body.videoID;
     if(
         videoId === undefined ||
